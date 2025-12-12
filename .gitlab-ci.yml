@@ -1,0 +1,32 @@
+stages:
+  - build
+  - deploy
+
+image: node:22
+cache: # Cache modules in between jobs
+  key: $CI_COMMIT_REF_SLUG
+  paths:
+    - .npm/
+
+build:
+  stage: build
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == "$CI_DEFAULT_BRANCH"'
+  before_script:
+    - hash -r
+    - npm ci --cache .npm --prefer-offline
+  script:
+    - npx quartz build
+  artifacts:
+    paths:
+      - public
+
+pages:
+  stage: deploy
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == "$CI_DEFAULT_BRANCH"'
+  script:
+    - echo "Deploying to GitLab Pages..."
+  artifacts:
+    paths:
+      - public
