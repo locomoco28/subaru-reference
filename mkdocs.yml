@@ -1,0 +1,11 @@
+site_name: "Subaru Reference"
+theme:
+  name: shadcn
+  show_title: true
+  show_stargazers: false
+  pygments_style:
+    light: shadcn-light
+    dark: github-dark
+  icon: heroicons:rocket-launch
+  topbar_sections: false
+  show_datetime: false
