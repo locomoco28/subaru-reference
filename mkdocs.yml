@@ -1,4 +1,11 @@
 site_name: "Subaru Reference"
+site_url: https://subaru.locomoco.dev
+
+# Repository
+repo_name: GitLab Repo
+repo_url: https://gitlab.com/locomoco-dev/subaru-reference
+edit_uri: ""
+
 theme:
   name: shadcn
   show_title: true
@@ -9,3 +16,6 @@ theme:
   icon: heroicons:rocket-launch
   topbar_sections: false
   show_datetime: false
+
+markdown_extensions:
+  - admonition
