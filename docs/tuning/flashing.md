@@ -16,7 +16,8 @@ Unfortunately, if you don't have a turbo car, you'll likely have a hard time fin
 
 Next up you need to know if your car uses K-Line or CAN for the flashing process. A general rule of thumb is that most subies up to 2008 use K-Line. With the Legacies you generally see K-Line on the pre-facelift BL/BP (2003) and CAN on the facelift (2006).
 
-Another detail to note is whether your ECU is 16bit or 32bit. iWire has a good [article](https://iwireusa.com/blogs/iwire-university/16-bit-ecu-vs-32-bit-ecu-in-your-subaru) on the topic. For tuning we only need to know if it's 16b or 32b for the choice of [ECU patches](#ecu-patches).
+Another detail to note is whether your ECU is 16bit or 32bit. iWire has a good [article](https://iwireusa.com/blogs/iwire-university/16-bit-ecu-vs-32-bit-ecu-in-your-subaru) on the topic. For tuning we only need to know if it's 16b or 32b for the choice of [ECU patches](#ecu-patches).  
+<small>Well, another thing would be that 32bit ECUs can be flashed more often than 16bit, but the number of flashes you can perform is so high, and the risk of bricking your ECU during the flash process is present on every flash you perform, hence I don't think it's really a valid point to talk about.</small>
 
 <!-- prettier-ignore -->
 !!! info "Test mode adapters <br/>"
@@ -75,6 +76,10 @@ There are some popular patches you can flash on your ECU. The two most popular p
 As I have a 32bit ECU I don't really have any experience with Carberry but they basically work the same way anyway. There are actually some forks of MerpMod (a fork is a copy of some software that is being modified by another party, basically developing their own version of said software building upon the work of someone else) which add various features. There are some that add Anti Lag, some work on FlexFuel integration, etc etc.
 
 Just look through forums, RomRaider's [Tuning Section](https://www.romraider.com/forum/viewforum.php?f=23) is a great place to start looking or asking :)
+
+## Bench Flashing
+
+This is a topic I haven't looked into yet but want to look into eventually. Bench flashing is the process of taking out your ECU from your car and communicating directly with the EEPROM of your ECU. This is useful if you "brick" your ECU.
 
 ## Little personal rant on "_Open Source Tuning_"
 
