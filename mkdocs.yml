@@ -13,9 +13,15 @@ theme:
   pygments_style:
     light: shadcn-light
     dark: github-dark
-  icon: heroicons:rocket-launch
+  icon: null
   topbar_sections: false
   show_datetime: false
 
 markdown_extensions:
   - admonition
+
+plugins:
+  - glightbox
+
+extra_javascript:
+  - js/bilinear-interpolation.js

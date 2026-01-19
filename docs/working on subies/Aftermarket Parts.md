@@ -1,11 +1,9 @@
-# Aftermarket Parts
-
 ## Boost Solenoids
 
 ## Pierburg 3 port Electronic Boost Control Solenoid (EBCS)
 
 - Part Number `7.01024.02.0`
-- Connector: 2 pin [Jetronic](#jetronic)
+- Connector: 2 pin [Jetronic](./Connectors.md#jetronic)
 
 easy to find as it's used on many OEM cars like BMWs and hence easy to source
 
@@ -16,7 +14,7 @@ MAC units are said to have sticking issues but some users on the [Subaru Discord
 ### Bosch 1000cc EV1
 
 - Part Number `0 280 158 040`
-- Connector: 2 pin [Jetronic](#jetronic)
+- Connector: 2 pin [Jetronic](./Connectors.md#jetronic)
 
 ## IAT
 

@@ -1,5 +1,3 @@
-# Connectors
-
 ## Jetronic
 
 Standard for Bosch

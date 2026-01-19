@@ -1,13 +1,10 @@
-# "Open Source" Reading and Flashing ECUs
+# Reading and Flashing ECUs
 
-Most people get an expensive Tactrix Open Port 2.0 Adapter to flash their cars. But you don't really need to spend 300$ (or 800$ with all the scalping going on rn) on a Tactrix that utilizes a 20 year old USB Mini-B connector which tends to get damaged very easily.
+Most people get an expensive Tactrix Open Port 2.0 Adapter to flash their cars. But you don't always need to spend 300$ (or 800$ with all the scalping going on rn) on a Tactrix that utilizes a 20 year old USB Mini-B connector which tends to get damaged very easily. If you drive an older Subaru you can likely utilize off-the-shelf OBD adapters too!
 
 <!-- prettier-ignore -->
 !!! note "This guide will only talk about _Open Source Tuning_<br/>"
-    You may also use propriatary flashing utilities which may come with some cool features that "Open Source" tuning does not offer at the moment. Some examples:
-
-    - [Lambda Tuning](https://lambdatuning.com/)
-    - [Cobb AccessPort](https://www.cobbtuning.com/)
+    You may also use propriatary flashing utilities which may come with some cool features that "Open Source" tuning does not offer at the moment like [Lambda Tuning](https://lambdatuning.com/). Another option would be a [Cobb AccessPort](https://www.cobbtuning.com/) but you won't be able to tune it yourself as only certified Cobb tuners have access to modifying tunes.
 
 ## Identifying Platform
 
@@ -49,9 +46,13 @@ If you are using a commercial CAN-Bus/KKL adapter (like aformentioned VXDIAG) yo
 
 If you wanna use "Open Source" tools you can choose one of the following ones.
 
+### Atlas
+
+[Atlas](https://motorsportsresearch.org/) is a tuning utility mostly aimed for modern Subarus (VA or VB WRX STi).
+
 ### EcuFlash
 
-EcuFlash gives you an error if you don't use a genuine Tactrix adapter. But not all EcuFlash versions are like that! EcuFlash **1.28** works with any adapter you want! If you don't use a K-Line cable with an FTDI chip it will likely give you an error that no FTDI drivers could be loaded, but it will still happily read and flash your ECU! You can save your ROM into a `.bin`/`.hex` and open it with any ECU editor you want (including the latest EcuFlash version), you just use EcuFlash 1.28 for reading/flsahing.
+[EcuFlash](https://www.tactrix.com/index.php?option=com_content&view=category&layout=blog&id=36&Itemid=58) gives you an error if you don't use a genuine Tactrix adapter. But not all EcuFlash versions are like that! EcuFlash **1.28** works with any adapter you want! If you don't use a K-Line cable with an FTDI chip it will likely give you an error that no FTDI drivers could be loaded, but it will still happily read and flash your ECU! You can save your ROM into a `.bin`/`.hex` and open it with any ECU editor you want (including the latest EcuFlash version), you just use EcuFlash 1.28 for reading/flsahing.
 
 You can find old EcuFlash versions archived in the [EvoECU Forums](https://evoecu.logic.net/mirror/ecuflash/releases/)
 
