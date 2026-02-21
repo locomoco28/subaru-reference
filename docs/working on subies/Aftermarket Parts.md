@@ -29,3 +29,11 @@ The plastic housing IAT sensor is useful when installing an IAT sensor on a meta
     - [MaxxECU](https://www.maxxecu.com/store/engine-control-or-electronics/sensors/temperature/welding-flange-bosch-iat-with-12mm-holes)
     - [Speeding Parts](https://www.speedingparts.com/p/engine-management/engine-control/sensors/temperature-sensor/welding-flange-bosch-iat-with-12mm-holes.html)
     - Probably fairly easy to DIY, from the datasheet it looks like a 12mm hole for the sensor and an M6 thread for a bolt that is like 15mm offset of the sensor hole
+
+## Oil Sensors
+
+### Bosch Oil Combined Tempreture & Pressure sensor
+
+- Part Number `0 261 544 01F`
+- Connector: 5 pin Bosch Trapez Code B
+- Thread: M10
