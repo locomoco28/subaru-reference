@@ -26,6 +26,6 @@ The plastic housing IAT sensor is useful when installing an IAT sensor on a meta
 - Connector: 2 pin Jetronic
 - [Datasheet](./datasheets/Bosch-IAT-0-280-130-085.pdf)
 - Weld-on bungs
-  - [MaxxECU](https://www.maxxecu.com/store/engine-control-or-electronics/sensors/temperature/welding-flange-bosch-iat-with-12mm-holes)
-  - [Speeding Parts](https://www.speedingparts.com/p/engine-management/engine-control/sensors/temperature-sensor/welding-flange-bosch-iat-with-12mm-holes.html)
-  - Probably fairly easy to DIY, from the datasheet it looks like a 12mm hole for the sensor and an M6 thread for a bolt that is like 15mm offset of the sensor hole
+    - [MaxxECU](https://www.maxxecu.com/store/engine-control-or-electronics/sensors/temperature/welding-flange-bosch-iat-with-12mm-holes)
+    - [Speeding Parts](https://www.speedingparts.com/p/engine-management/engine-control/sensors/temperature-sensor/welding-flange-bosch-iat-with-12mm-holes.html)
+    - Probably fairly easy to DIY, from the datasheet it looks like a 12mm hole for the sensor and an M6 thread for a bolt that is like 15mm offset of the sensor hole

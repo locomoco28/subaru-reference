@@ -31,8 +31,8 @@ You can also rescale your sensor yourself. If you don't have a wideband O2 senso
 - A/F Sensor #1 Current (mA)
 - CL/OL Fueling\* (status)
 - Final Fueling Base
-  - If you don't have this parameter available, you can go into your open loop fueling table and log both X and Y axis (usually Engine Speed & Engine Load)
-  - later you can use these values to calculate your final fueling base using bi-linear interpolation
+    - If you don't have this parameter available, you can go into your open loop fueling table and log both X and Y axis (usually Engine Speed & Engine Load)
+    - later you can use these values to calculate your final fueling base using bi-linear interpolation
 
 <!-- prettier-ignore -->
 !!! info "Important"

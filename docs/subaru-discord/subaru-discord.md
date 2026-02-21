@@ -1,6 +1,6 @@
 ---
 external_links:
-  "Join the Discord!": https://discord.gg/subaru
+    "Join the Discord!": https://discord.gg/subaru
 ---
 
 # Subaru Discord
