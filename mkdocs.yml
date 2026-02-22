@@ -7,21 +7,22 @@ repo_url: https://gitlab.com/locomoco-dev/subaru-reference
 edit_uri: ""
 
 theme:
-  name: shadcn
-  show_title: true
-  show_stargazers: false
-  pygments_style:
-    light: shadcn-light
-    dark: github-dark
-  icon: null
-  topbar_sections: false
-  show_datetime: false
+    name: shadcn
+    show_title: true
+    show_stargazers: false
+    pygments_style:
+        light: shadcn-light
+        dark: github-dark
+    icon: null
+    topbar_sections: false
+    show_datetime: false
 
 markdown_extensions:
-  - admonition
+    - admonition
+    - codehilite
 
 plugins:
-  - glightbox
+    - glightbox
 
 extra_javascript:
-  - js/bilinear-interpolation.js
+    - js/bilinear-interpolation.js
