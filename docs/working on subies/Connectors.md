@@ -48,3 +48,15 @@ Used for many OEM connectors on Subarus.
 - 3 pin
     - `RFW-3S-3` / `RFW-3S-3W`
         - Ignition coil connectors (part with W suffix is white, other one is black)
+
+## Aptiv/Delphi
+
+- 6 pin
+    - `12124107`
+        - 6-pin Secondary Air Injection connector (2006 Forester wiring diagram connector E41)
+
+## Yazaki
+
+- 3 pin
+    - `7283113330`
+        - TGV connector
