@@ -20,6 +20,8 @@ theme:
 markdown_extensions:
     - admonition
     - codehilite
+    - pymdownx.blocks.caption
+    - footnotes
 
 plugins:
     - glightbox
